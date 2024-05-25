@@ -19,7 +19,7 @@ public class FindUniqueNumber {
     }
 
     public static Set<Integer> uniqueElements(List<Integer> list) {
-        Set<Integer> newSet = new HashSet<>(list);
+       // Set<Integer> newSet = new HashSet<>(list);
         return new TreeSet<Integer>(list); // using TreeSet: non duplicate and sorted
     }
 }
